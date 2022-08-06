@@ -143,68 +143,12 @@
 */
 
 
-.contenedorItem{
-  display: grid;
-  width: auto;
-  height: 400px;
-  border: solid 3px;
-  margin: 3px;
-  padding: 3px;
-  justify-items: center;
-}
-
-.contenedorSeccion{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 15px;
-  justify-content: center;
-}
-
-.perifericos{
-  display: flex;
-  height: auto;
-  border: solid 3px blue;
-  margin: 4px;
-  padding: 2px;
-}
-
-.juegos{
-  display: flex;
-  height: auto;
-  border: solid 3px green;
-  margin: 4px;
-  padding: 2px;
-}
-
-.tituloProductos{
-  height: 50px;
-  width: auto;
-  border: solid 3px;
-}
-
 
 /*PRODUCTOS
 */
-@media screen and (max-width:480px) {
-  .contenedorSeccion{
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-}
 
-@media screen and (max-width: 1024px) {
-  .contenedorSeccion{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-  .noticiaPrincipal{
-    display: none;
-  }
-}
 @media screen and (min-width: 1024px){
   .clasePrueba{
     display: none;
   }
-}
+} 
