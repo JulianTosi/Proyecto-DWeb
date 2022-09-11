@@ -17,7 +17,7 @@
   background-color: rgba(126, 190, 35, 0.537254902);
 }
 
-.navBar {
+.headerNavegable {
   border: solid 3px rgba(255, 0, 0, 0.541);
   text-decoration: none;
   text-align: center;
@@ -27,23 +27,22 @@
   background-color: #d1512d;
   background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23411530' fill-opacity='0.58' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
 }
-.navBar .navegadorBoton {
-  margin: 5px;
-  display: flex;
-  height: 30px;
+.botonesEnlace{
+  display: inline-block;
   width: auto;
-  background-color: beige;
+  height: auto;
   border: solid 2px;
-  align-items: center;
-  justify-content: center;
+  background-color: rgba(245, 245, 220, 0.808);
 }
+
+.img-thumbnail {
+  max-width: 50px;}
 
 /* HEADER Y FOOTER
   */
 /* FONDO PRINCIPAL
   */
 .paginaPrincipal {
-  border: solid 3px rgba(0, 0, 255, 0.437);
   width: auto;
   height: auto;
   text-align: center;
@@ -87,36 +86,30 @@
 /* FONDO PRINCIPAL
   */
 /* NOSOTROS
-  */
-.paginaPrincipal .bordeContenedor {
-  margin: 3px;
-  padding: 3px;
-  border: solid 3px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.paginaPrincipal .bordeContenedor .quienSomos {
-  border: solid 3px;
-  height: auto;
-  width: 250px;
-  margin: 3px;
-  padding: 3px;
-}
-
+*/
 /* NOSOTROS
   */
 /*NOTICIAS
   */
 .paginaPrincipal .seccionNoticias {
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid;
   display: inline-block;
   justify-content: center;
+  background-color: #d1512da1;
 }
 .paginaPrincipal .seccionNoticias .itemNoticia {
   width: 700px;
   display: inline-block;
   justify-content: center;
   border: solid 2px;
+}
+.paginaPrincipal .seccionNoticias .imagenNoticia{
+  width: 700px;
+  height: 300px;
+  border: solid;
+  border-style: dashed;
 }
 
 /*NOTICIAS
@@ -142,6 +135,10 @@
     display: none;
   }
 }
-.logoNavegador {
-  max-width: 50px;
-}/*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width: 990px){
+  
+}
+
+
+/*# sourceMappingURL=style.css.map */
